@@ -13,10 +13,10 @@ And Thats How You Import LuaC Into A Script!
 
 
   ## What Are Networks
-    Networks Are The Connections Between Scripts, Almost Like An Invisible RemoteEvent Between Scripts.
+  Networks Are The Connections Between Scripts, Almost Like An Invisible RemoteEvent Between Scripts.
     
   ## How To Setup A Network
-    (Assuming You Have Imported LuaC).
+   (Assuming You Have Imported LuaC).
     Step 1: Creating The Network.
       To Create A Network First Do The Name You Localised LuaC As (In My Case LuaC) And Then :CreateNetwork("NetworkName", script)
-      <img width="693" height="113" alt="image" src="https://github.com/user-attachments/assets/c0889a5a-0b6b-4c55-a6c3-fc42f3ec1647" />
+  <img width="693" height="113" alt="image" src="https://github.com/user-attachments/assets/c0889a5a-0b6b-4c55-a6c3-fc42f3ec1647" />
