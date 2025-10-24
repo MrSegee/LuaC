@@ -12,9 +12,9 @@
 1. Create a **ModuleScript** anywhere in **ReplicatedStorage**.  
 2. Paste the **source code** into the ModuleScript.  
 3. Load and Require the ModuleScript using `require()`.  
-
-<img width="685" height="73" alt="image" src="https://github.com/user-attachments/assets/068bb280-fef3-46b6-b025-ebd9164f8897" />
-
+```lua
+local LuaC=require(game:GetService("ReplicatedStorage"):WaitForChild("ModuleScript"))
+```
 ---
 
 ### What Are Networks
@@ -30,3 +30,4 @@ These **Networks** help you transfer events, variables or any value from one scr
    To create a network, use the name you assigned to LuaC (in this example, `LuaC`) and call:  
    ```lua
    LuaC:CreateNetwork("NetworkName", script)
+   ```
